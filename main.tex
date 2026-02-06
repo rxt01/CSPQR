@@ -1,0 +1,38 @@
+\documentclass{book}
+
+\usepackage{graphicx}
+\graphicspath{ {./pictures/} }
+\usepackage{multicol}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=blue,
+    urlcolor=black,
+    pdfborderstyle={/S/U/W 1}
+}
+
+\title{Recueil de chat}
+\author{Sacha Bazin, Vincent Kieu Habel et Kefan Mei}
+\date{}
+\renewcommand*\contentsname{CHATS}
+
+\input macros.tex
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\newpage
+
+\input CSPQR.tex
+
+\input others.tex
+
+\appendix
+
+\input Anexe1.tex
+
+\end{document}
